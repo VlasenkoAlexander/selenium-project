@@ -20,7 +20,6 @@ public class FormTest {
 
     @BeforeAll
     public void setUp() {
-        // Укажите корректный путь к chromedriver.exe
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\hativ\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
